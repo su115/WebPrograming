@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    background: gray;
+}
+
+.form {
+    display: block;
+    color: white;
+    font-size: 25px;
+    font-weight: 5px;
+}
+
+.form2 {
+    display: block;
+    color: white;
+    font-size: 21px;
+    /*! font-weight: 5px; */
+    /*! margin: -5px; */
+}
+
+.fin1 {
+    padding-left: 25px;
+    font-size: 30px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.fin2 {
+    /*! padding-left: 25px; */
+    /*! font-size: 30px; */
+    /*! padding-bottom: 50px; */
+    /*! padding-top: 10px; */
+    /*! font-size: 14px; */
+    padding: 4px;
+    width: 100%;
+}
+
+.fin6 {
+    /*! padding-left: 65px; */
+    /*! font-size: 30px; */
+    /*! padding-bottom: 50px; */
+    /*! padding-top: 10px; */
+    /*! padding-left: auto; */
+    /*! padding-right: auto; */
+}
+.fin7 {
+    /*! padding-left: 70px; */
+    /*! font-size: 30px; */
+    /*! padding-bottom: 50px; */
+    /*! padding-top: 10px; */
+}
+
+.fin5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.fin5_reg {
+    display: flex;
+    flex-direction: column;
+}
+
+.fin3 {
+    margin-left: auto;
+    margin-right: auto;
+}
+.fin4{width: 188px;}
+
+.desktop_reg {
+    display: block;
+    background: url("../img/aboutbgdesktop.jpg") center no-repeat;
+    background-size: cover;
+    height: 2000px;
+    width: 100%;
+    display: flex;
+}
+
+.desktop {
+    display: block;
+    background: url("../img/aboutbgdesktop.jpg") center no-repeat;
+    background-size: cover;
+    height: 2000px;
+    width: 100%;
+    display: flex;
+}
+
+.container {
+    opacity: .5;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 120px;
+    background-color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    width: 100%;
+    align-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.buttons1 {
+    margin: 10px;
+    /*! justify-content: space-between; */
+    /*! align-content: center; */
+    /*! display: flex; */
+    width: 85%;
+}
+
+.buttons2 {
+    margin-right: 30px;
+    /*! width: 50%; */
+    /*! margin-left: 30px; */
+}
+
+.button:hover {
+    text-decoration: none;
+}
+
+@media screen and (max-width:1400px) {
+    .desktop {
+        height: 930px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .desktop {
+        height: 800px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .desktop {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .desktop {
+        height: 600px;
+    }
+    @media screen and (max-height:1601px) {
+        .desktop {
+            height: 1600px;
+        }
+    }
+}
+
+.form {
+    font-size: 20px;
+    opacity: .7;
+    background-color: grey;
+    /*! width: 360px; */
+    display: flex;
+    justify-content: center;
+}
+
+.form2 {
+    opacity: .7;
+    background-color: grey;
+    padding: 30px;
+}
+
+.container {
+    margin-bottom: auto;
+    margin-top: auto;
+    opacity: 1;
+    background-color: initial;
+    padding: 0;
+}
+
+
+.validError{
+    display: none;
+    font-size: 9px;
+    color: red;
+    border: solid 1px;
+    padding: 4px;
+    width: 190px;
+    background: black;
+    text-align: justify;
+}
+
+@media screen and (max-width:600px) {
+    .desktop {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .desktop {
+        height: 500px;
+    }
+    .buttons1 {
+        display: flex;
+        flex-direction: column;
+        /*! align-items: center; */
+        /*! justify-content: center; */
+    }
+    .button {
+        margin: 5px;
+    }
+    .fin3 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .fin5_reg {
+        align-items: center;
+    }
+    .desktop_reg {
+        height: 815px;
+    }
+}
+
+@media screen and (max-height:800px) {
+    .desktop_reg {
+        height: 850px;
+    }
+    .desktop {
+        height: 850px;
+    }
+}
+
+@media screen and (max-height:1000px) {
+    .desktop_reg {
+        height: 1000px
+    }
+    @media screen and (max-height:1000px) {
+        .desktop {
+            height: 1000px;
+        }
+    }
+}

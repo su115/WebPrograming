@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/abonement.css">
+    <title>Abonenmet</title>
+</head>
+
+<body class="bg">
+
+    <div class="desktop_reg">
+        <div class="container">
+
+            <form class="form2" action="action_form.php" method="POST">
+                <fieldset class="fin5_reg">
+                    <label class="fin1">Реєстрація</label><br>
+                    <div class="fin3">
+                        <label class="fin2">Email:
+                            <div class="fin4">
+                                <input id="email" placeholder="Email" onblur="FirstUP(this)" class="fin2" type="email"
+                                    name="Email" required>
+                                <div class="validError" id="emailE"></div>
+                            </div>
+                        </label><br></div>
+                    <div class="fin3">
+                        <label class="fin2">Мобільний:
+                            <div class="fin4">
+                                <input id="tel" placeholder="Phone" onblur="FirstUP(this)" class="fin2" type="tel"
+                                    name="Мобільний" required>
+                                <div class="validError" id="telE"></div>
+                            </div>
+                        </label><br>
+                    </div>
+                    <div class="fin3">
+                        <label class="fin2">Ваше ім'я:
+                            <div class="fin4">
+                                <input id="name" placeholder="Name" onblur="FirstUP(this)" class="fin2" type="text"
+                                    name="Ваше ім'я" required>
+                                <div class="validError" id="nameE"></div>
+                            </div>
+
+                        </label><br>
+                    </div>
+                    <div class="fin3">
+                        <label class="fin2">Ваше Прізвище:
+                            <div class="fin4">
+                                <input id="sname" placeholder="Secound Name" onblur="FirstUP(this)" class="fin2"
+                                    type="text" name="Ваше Прізвище">
+                                <div class="validError" id="snameE"></div>
+                            </div>
+
+                        </label><br>
+                    </div>
+                    <div class="fin3">
+                        <label class="fin6" margin="10px">Ваше фото:
+                            <div class="fin4">
+                                <input id="photo" class="fin7" type="file" name="photo">
+                            </div>
+
+                        </label><br>
+                    </div>
+
+                    <div class="buttons2">
+
+                        <a href="abonement.html"><input id="cancel" onmouseover="Over(this)" onmouseout="Out(this)"
+                                type="button" class="button" value="    Скасувати    "></a>
+
+                        <a href="#"> <input id="next" type="button" onmouseover="Over(this)" onmouseout="Out(this)"
+                                onclick="Validation()" class="button" value="       Далі      ">
+                        </a>
+                    </div>
+
+                </fieldset>
+
+            </form>
+
+        </div>
+    </div>
+    <script type="text/javascript" src="js/reg.js"></script>
+
+</body>
+
+</html>

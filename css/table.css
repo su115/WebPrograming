@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    page-break-after: 0;
+}
+
+.table_bg {
+    background: url("../img/t1.jpeg") center no-repeat;
+    background-size: cover;
+}
+
+.table_block {
+    display: block;
+    background-color: grey;
+    opacity: .8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: DroidSerif;
+}
+
+.header {
+    font-weight: bold;
+}
+
+.table_items {
+    align-items: center;
+}
+
+.centered {
+    align-items: center;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    margin: 5px;
+}
+
+.button:hover {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'DroidSerif';
+    src: url('https://rawgit.com/google/fonts/master/ufl/ubuntu/Ubuntu-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DroidSerif';
+    src: url('https://rawgit.com/google/fonts/master/ufl/ubuntumono/UbuntuMono-Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
